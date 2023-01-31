@@ -1,0 +1,113 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  height: 300px;
+}
+
+.mainHeading {
+  font-size: 30px;
+  color: #ea580c;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+}
+
+.labelInput {
+  font-size: 12px;
+  color: #475569;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.inputCls {
+  cursor: pointer;
+  font-size: 15px;
+  color: #9aa5b1;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: #cbd2d9;
+  height: 30px;
+  padding-left: 15px;
+}
+
+.submitButton {
+  color: #ffffff;
+  background-color: #ea580c;
+  border-radius: 10px;
+  font-size: 15px;
+  border-width: 0px;
+  margin-top: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.requiredPara {
+  font-size: 12px;
+  color: #ff0b37;
+}
+
+.requiredOutline {
+  border-color: #ff0b37;
+  background-color: #fef2f4;
+}
+
+.successImage {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+}
+
+.submitPara {
+  font-size: 15px;
+  font-weight: bold;
+  color: #475569;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .subContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  .submitButton {
+    color: #ffffff;
+    background-color: #ea580c;
+    border-radius: 10px;
+    font-size: 15px;
+    border-width: 0px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
