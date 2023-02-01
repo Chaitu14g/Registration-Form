@@ -100,11 +100,11 @@ class RegistrationForm extends Component {
           onBlur={this.onFirstInputBlur}
         />
         {para}
-        <label htmlFor="first" className="labelInput">
+        <label htmlFor="last" className="labelInput">
           LAST NAME
         </label>
         <input
-          id="first"
+          id="last"
           type="text"
           placeholder="Last name"
           className={`inputCls ${redOutlines}`}
